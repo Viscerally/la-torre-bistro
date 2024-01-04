@@ -1,0 +1,71 @@
+/* Inspiration and design from https://jazzfm.ro/ */
+
+
+/* Global Variables */
+
+header {
+    min-height: 100vh;
+    position: relative;
+}
+
+.yellow-bg {
+    background-color: #ffcc00;
+}
+
+.white-bg {
+    background-color: whitesmoke;
+}
+
+.red-bg {
+    background-color: #c7293c;
+}
+
+.green-bg {
+    background-color: #008d44;
+}
+
+.pasta {
+    color:wheat;
+}
+
+.container-fluid{
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.white-ft {
+    color:whitesmoke;
+}
+
+.center {
+    text-align: center;
+}
+
+.hero-body {
+    font-family: 'Fragment Mono', monospace;
+}
+section {
+    font-family: 'Fragment Mono', monospace;
+}
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:whitesmoke;
+}
+
+td {
+    padding:0 10px;
+}
+
