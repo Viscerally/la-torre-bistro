@@ -192,3 +192,20 @@ input:checked + section.box .box-title:before {
   'GRAD' 0,
   'opsz' 24
 }
+
+
+/* animations */
+
+@keyframes slide-in {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+
+  /* ...and then apply it: */
+  .material-symbols-outlined {
+    animation: slide-in 1000ms;
+  }
