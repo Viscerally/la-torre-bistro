@@ -189,6 +189,7 @@ input:checked + section.box .box-title:before {
 .material-symbols-outlined {
 	font-size: 100px !important;
 	color:wheat;
+	margin-bottom: 30px;
 	font-variation-settings:
   'FILL' 0,
   'wght' 400,
