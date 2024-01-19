@@ -2,6 +2,9 @@
 
 
 /* Global Variables */
+html {
+	scroll-behavior: smooth;
+  }
 
 header {
     position: relative;
