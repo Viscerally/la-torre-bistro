@@ -23,7 +23,10 @@ header {
 
 .green-bg {
     background-color: #008d44;
-    min-height: 100vh
+    min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .pasta {
@@ -176,4 +179,16 @@ input:checked + section.box .box-title:before {
 #map {
     height: 100%;
     width: 80%;
+}
+
+/* material symbols */
+
+.material-symbols-outlined {
+	font-size: 100px !important;
+	color:wheat;
+	font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
