@@ -160,7 +160,7 @@ input:checked + .box .box-close {
 }
 .arrows section .box-title {
 	padding-left: 44px;
-	width: calc(100% - 64px);
+	width: calc(100% - 24px);
 }
 .arrows section .box-title:before {
 	position: absolute;
