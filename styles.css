@@ -132,7 +132,7 @@ header .box-title {
 }
 .box-content {
 	width: calc(100% - 40px);
-	padding: 30px 20px;
+	padding: 30px 10px;
 	font-size: 11pt;
 	color: rgba(0,0,0,.54);
 	display: none;
