@@ -85,9 +85,19 @@ td {
 
 .accordion {
 	margin: auto;
-	width: 400px;
+	width: 70%;
     padding: 5px;
 }
+
+@media (max-width: 1250px) {
+    .accordion {
+        margin: auto;
+        width: 100%;
+        padding: 5px;
+    }
+  }
+
+
 .accordion input {
 	display: none;
 }
