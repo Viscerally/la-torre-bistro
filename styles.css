@@ -61,10 +61,18 @@ header {
 }
 
 .hero-body {
-    font-family: 'Fragment Mono', monospace;
+    /* font-family: 'Fragment Mono', monospace; */
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 section {
-    font-family: 'Fragment Mono', monospace;
+    /* font-family: 'Fragment Mono', monospace; */
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 .row {
     display: flex;
