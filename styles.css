@@ -10,13 +10,20 @@ header {
     position: relative;
 }
 
+
+/* Brand Colours */
+
 .yellow-bg {
     background-color: #ffcc00;
 }
-
 .white-bg {
     background-color: whitesmoke;
     min-height: 100vh
+}
+
+.gray-bg {
+    background-color: #cdcdcd;
+    min-height: 100vh;
 }
 
 .red-bg {
@@ -36,6 +43,25 @@ header {
     color:wheat;
 }
 
+.tomato {
+    color: tomato;
+}
+
+.white-ft {
+    color:whitesmoke;
+}
+
+.isabelline {
+    color:#ede7e3;
+}
+
+.orange-peel {
+    color:#ffa62b;
+}
+
+
+/* Layout Tools */
+
 .price {
     float:right;
 }
@@ -48,9 +74,6 @@ header {
     margin-left: auto;
 }
 
-.white-ft {
-    color:whitesmoke;
-}
 
 .center {
     text-align: center;
@@ -64,14 +87,39 @@ header {
     /* font-family: 'Fragment Mono', monospace; */
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 300;
     font-style: normal;
 }
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu-btns {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.menu-wrapper {
+    position: relative;
+    min-height: 300px;
+    margin-top: 10%;
+  }
+  
+  .menu-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
 section {
     /* font-family: 'Fragment Mono', monospace; */
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 300;
     font-style: normal;
 }
 .row {
@@ -208,14 +256,13 @@ input:checked + section.box .box-title:before {
 
 #map {
     height: 100%;
-    width: 80%;
+    width: 100%;
 }
 
 /* material symbols */
 
 .material-symbols-outlined {
 	font-size: 100px !important;
-	color:wheat;
 	margin-bottom: 30px;
 	font-variation-settings:
   'FILL' 0,
@@ -224,6 +271,10 @@ input:checked + section.box .box-title:before {
   'opsz' 24
 }
 
+.symbol-container {
+    top: 250px;
+    position: relative;
+}
 
 /* animations */
 
@@ -239,4 +290,18 @@ input:checked + section.box .box-title:before {
   /* ...and then apply it: */
   .material-symbols-outlined {
     animation: slide-in 1000ms;
+  }
+
+  .menu-section {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0s 0.5s;
+  }
+
+  .menu-section.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
