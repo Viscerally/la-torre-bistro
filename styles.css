@@ -108,12 +108,12 @@ header {
     margin-top: 10%;
   }
   
-  .menu-section {
+  /* .menu-section {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-  }
+  } */
 
 section {
     /* font-family: 'Fragment Mono', monospace; */
@@ -294,14 +294,16 @@ input:checked + section.box .box-title:before {
 
   .menu-section {
     opacity: 0;
-    visibility: hidden;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0s 0.5s;
-  }
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+    pointer-events: none;
+  }  
 
   .menu-section.show {
     opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    max-height: 2000px;
+    overflow: visible;
+    pointer-events: auto;
   }
+  
