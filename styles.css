@@ -18,7 +18,7 @@ header {
 }
 .white-bg {
     background-color: whitesmoke;
-    min-height: 100vh
+    min-height: 90vh;
 }
 
 .gray-bg {
@@ -89,6 +89,12 @@ header {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+}
+
+#hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #menu {
