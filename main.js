@@ -14,3 +14,7 @@ document.querySelectorAll('button[data-target]').forEach(btn => {
     targetMenu.classList.toggle('show');
   });
 });
+
+function closeBanner() {
+  document.getElementById('reopeningCard').style.display = 'none';
+}
