@@ -10,6 +10,7 @@
 
 import { motion } from "motion/react";
 import { Menu, MapPin, ChevronRight, Utensils } from "lucide-react";
+import MenuSection from './components/MenuSection';
 
 export default function App() {
   const fadeIn = {
@@ -89,6 +90,9 @@ export default function App() {
             </button>
           </motion.div>
         </section>
+
+        {/* Menu Section */}
+        <MenuSection />
 
         {/* Our Story Section */}
         <section className="py-section-gap px-6 md:px-margin-desktop max-w-container-max mx-auto" id="story">
