@@ -5,5 +5,5 @@ import {defineConfig, loadEnv} from 'vite';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/la-torre-bistro/',
+  base: '/',
 })
