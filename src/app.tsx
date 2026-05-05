@@ -222,7 +222,7 @@ export default function App() {
               </div>
               
               <div className="text-stone-300 font-body text-sm">
-                © 2024 Artisanal Italian Heritage.
+                © 2024 La Torre Bistro
               </div>
             </div>
           </div>
