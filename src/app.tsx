@@ -51,9 +51,9 @@ export default function App() {
           </nav>
 
           {/* Action Button */}
-          <button className="bg-primary-container text-white font-label tracking-widest text-sm py-2.5 px-7 rounded shadow-sm hover:brightness-95 transition-all">
+          {/* <button className="bg-primary-container text-white font-label tracking-widest text-sm py-2.5 px-7 rounded shadow-sm hover:brightness-95 transition-all">
             RESERVE
-          </button>
+          </button> */}
         </div>
       </header>
 
@@ -84,10 +84,10 @@ export default function App() {
             <p className="text-body-lg text-stone-200 mb-10 max-w-2xl font-light">
               Experience the craft of artisanal cooking, where heritage meets contemporary gastronomy in an elegant, welcoming atmosphere.
             </p>
-            <button className="bg-primary-container text-white font-label text-sm py-4 px-10 rounded shadow-xl hover:bg-primary transition-all flex items-center gap-2 group">
+            <a href="#menu" className="bg-primary-container text-white font-label text-sm py-4 px-10 rounded shadow-xl hover:bg-primary transition-all flex items-center gap-2 group">
               Explore Menu
               <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
           </motion.div>
         </section>
 
