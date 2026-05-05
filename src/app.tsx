@@ -160,7 +160,7 @@ export default function App() {
                 className="flex-1"
               >
                 <span className="text-label-md text-primary-container tracking-widest uppercase mb-4 block">Visit Us</span>
-                <h2 className="text-headline-lg mb-8">In the heart of the historic district.</h2>
+                <h2 className="text-headline-lg mb-8">Just minutes away from The Amazing Brentwood.</h2>
                 <div className="space-y-8">
                   <div className="flex items-start gap-4">
                     <MapPin className="w-6 h-6 text-primary-container shrink-0 mt-1" />
