@@ -165,8 +165,9 @@ export default function App() {
                   <div className="flex items-start gap-4">
                     <MapPin className="w-6 h-6 text-primary-container shrink-0 mt-1" />
                     <div>
-                      <p className="font-display text-xl mb-1 text-stone-100">123 Via della Vite</p>
-                      <p className="text-stone-400 font-body">Milano, Italy 20121</p>
+                      <p className="font-display text-xl mb-1 text-stone-100">5063 Anola Dr</p>
+                      <p className="text-stone-400 font-body">Burnaby, BC V5B 4V7</p>
+                      <p className="text-stone-400 font-body mt-1">(778) 788-5063</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -175,8 +176,8 @@ export default function App() {
                     </div>
                     <div>
                       <p className="font-display text-xl mb-1 text-stone-100">Hours of Operation</p>
-                      <p className="text-stone-400 font-body italic mb-1">Tue – Sun: 12:00 – 23:00</p>
-                      <p className="text-stone-400 font-body opacity-60">Closed on Mondays</p>
+                      <p className="text-stone-400 font-body italic mb-1">Monday - Wednesday: 11:00 AM - 2:30 PM</p>
+                      <p className="text-stone-400 font-body opacity-60">Closed Thursday - Sunday</p>
                     </div>
                   </div>
                 </div>
@@ -191,9 +192,14 @@ export default function App() {
                 <div className="aspect-video bg-stone-800 rounded-xl flex items-center justify-center border border-stone-700/50 backdrop-blur-sm overflow-hidden group">
                   <div className="text-center group-hover:scale-110 transition-transform duration-700">
                     <MapPin className="w-12 h-12 text-primary-container mx-auto mb-4 opacity-50" />
-                    <button className="text-stone-400 font-label text-sm uppercase tracking-widest hover:text-primary-container transition-colors">
+                    <a 
+                      href="https://maps.app.goo.gl/2coQZ6DBxBYb5hPW6" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-stone-400 font-label text-sm uppercase tracking-widest hover:text-primary-container transition-colors"
+                    >
                       Open in Maps
-                    </button>
+                    </a>
                   </div>
                 </div>
               </motion.div>

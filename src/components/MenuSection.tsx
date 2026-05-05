@@ -16,12 +16,11 @@ export default function MenuSection() {
   };
 
   const menuItems = [
-    { name: "Tagliatelle al Tartufo", desc: "Fresh house-made egg pasta, black truffle shavings, aged 24-month Parmigiano-Reggiano.", price: "28" },
-    { name: "Osso Buco alla Milanese", desc: "Slow-braised veal shank, aromatic saffron risotto, zesty lemon-herb gremolata.", price: "34" },
-    { name: "Branzino al Forno", desc: "Roasted whole Mediterranean sea bass, wild artichokes, buttery lemon-caper emulsion.", price: "32" },
-    { name: "Fiori di Zucca", desc: "Tempura-fried zucchini blossoms stuffed with buffalo ricotta and salted anchovies.", price: "18" },
-    { name: "Costolette d'Agnello", desc: "Pistachio-crusted lamb chops, cauliflower purée, vincotto reduction.", price: "38" },
-    { name: "Tiramisu Moderno", desc: "Espresso-soaked savoiardi, light mascarpone cloud, tempered dark chocolate soil.", price: "14" }
+    { name: "Tagliere Di Salumi E Formaggi For Two", desc: "Selection of cured meats and artisanal cheeses served with seasonal accompaniments.", price: "21" },
+    { name: "Polpettine Con Focaccia", desc: "House-made meatballs served with warm focaccia bread.", price: "18" },
+    { name: "Burrata Con Pomodorini", desc: "Creamy burrata cheese with cherry tomatoes and fresh herbs.", price: "16" },
+    { name: "Mix House Salad", desc: "Fresh mixed greens with house vinaigrette.", price: "14" },
+    { name: "PASTA SPECIAL DAY", desc: "Daily pasta special - ask your server for today's selection.", price: "ask the server" }
   ];
 
   return (
